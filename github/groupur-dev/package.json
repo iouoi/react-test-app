@@ -1,0 +1,51 @@
+{
+  "name": "groupur",
+  "version": "0.0.1",
+  "description": "An application to enable collaborative commerce",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "mocha --timeout 8000 test/",
+    "start": "node server/server.js",
+    "webpack": "./node_modules/.bin/webpack -w",
+    "wpds": "./node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Groupur/groupur.git"
+  },
+  "author": "Groupur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Groupur/groupur/issues"
+  },
+  "homepage": "https://github.com/Groupur/groupur#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "html-webpack-plugin": "^2.30.1",
+    "mongoose": "^5.0.6",
+    "oauth": "^0.9.15",
+    "react": "^16.2.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "css-loader": "^0.28.7",
+    "expect": "^22.4.0",
+    "mocha": "^5.0.1",
+    "react-dom": "^16.2.0",
+    "style-loader": "^0.20.2",
+    "supertest": "^3.0.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
