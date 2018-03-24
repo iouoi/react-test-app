@@ -1,0 +1,42 @@
+[
+  {
+    "name": "App [mount] ", 
+    "startTime": "126.23443", 
+    "duration": ".3456",
+    "child": "component 2"
+  },
+  
+  
+  {
+    "key": "d1",
+    "values": [
+      {
+        "dep": "d1",
+        "name": "name1",
+        "size": "size1"
+      },
+      {
+        "dep": "d1",
+        "name": "name2",
+        "size": "size2"
+      }
+    ]
+  },
+  {
+    "key": "d2",
+    "values": [
+      {
+        "dep": "d2",
+        "name": "name1",
+        "size": "size3"
+      },
+      {
+        "dep": "d2",
+        "name": "name2",
+        "size": "size4"
+      }
+    ]
+  }
+]
+
+
