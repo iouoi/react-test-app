@@ -1,0 +1,7 @@
+.rv-xy-plot__inner {
+  fill: #3498db;
+}
+
+.rv-xy-plot__series:hover {
+  fill: #2ecc71;
+}
